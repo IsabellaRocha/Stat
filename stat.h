@@ -5,9 +5,3 @@
 #include <unistd.h>
 #include <errno.h>
 #include <sys/stat.h>
-
-struct stat {
-    int size;
-    int mode;
-    char time[25];
-}
